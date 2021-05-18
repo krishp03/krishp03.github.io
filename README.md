@@ -1,4 +1,4 @@
-# krishp03.github.io
+## krishp03.github.io
 My Personal Website
-# Link
+## Link
 [krishp03.github.io]
