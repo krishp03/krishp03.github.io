@@ -1,41 +1,103 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Krish's Website</title>
-        <script src = "script.js" defer></script>
-        <link href = "styles.css" rel = "stylesheet">
-    </head>
-    <body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Krish Patel</title>
+    <script src="https://use.fontawesome.com/5cd833ef09.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"> 
+    <link rel="stylesheet" href="styles.css"> 
+  </head>
 
-        <ul>
-            <li data-tab-target="#Home">Home</li>
-            <li data-tab-target="#Projects">Projects</li>
-            <li data-tab-target="#Resume">Resume</li>
-        </ul>
-        
-        <div class="tab_contents">
+  <body>
+    <!-- HERO -->
+    <section class="hero has-background-success-dark has-text-centered">
+      <div class="hero-body">
+        <p class="title is-size-1">
+          Krish Patel
+        </p>
+        <p class="subtitle is-size-3">
+          Personal Portfolio
+        </p>
+      </div>
+    </section>
 
-            # Homepage
-            <div id="Home">
-
-                <h1>Krish Patel</h1>
-                <h2>About Me:</h2>
-                <p>
-                    I'm an incoming freshman at Rutgers University-New Brunswick  <br>
-                    studying Computer Science.
-                </p>
-
+    
+    <!-- Col 1 -->
+    <div class="columns is-centered">
+      
+      <div class="column is-one-third mt-4">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image">
+              <img class = "projects-img" src="imgs/whtCode.png" alt= "projects-img"/>
+            </figure>
+          </div>
+          <div class="card-content s1">
+            <div class="content">
+              <p class="title is-4">
+                Projects
+              </p>
             </div>
-
-            <div id="Projects">
-
-            </div>
-
-            <div id="My Resume">
-                
-            </div>
-
+          </div>
         </div>
-    </body>
+      </div>
+      <div class="column is-one-third mt-4">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image">
+              <img class = "resume-img" src="imgs/whtAbout.png" alt = "resume-img"/>
+            </figure>
+          </div>
+          <div class="card-content s3">
+            <div class="content">
+              <p class="title is-4">
+                About Me
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
+    <!-- Col 2 -->
+    <div class="columns is-centered">
+      <div class="column is-one-third mt-4">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image">
+              <img class = "resume-img" src="imgs/whtResume.png" alt = "resume-img"/>
+            </figure>
+          </div>
+          <div class="card-content s2">
+            <div class="content">
+              <p class="title is-4">
+                Resume
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column is-one-third mt-4">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image">
+              <img class = "resume-img" src="imgs/whtContact.png" alt = "resume-img"/>
+            </figure>
+          </div>
+          <div class="card-content s4">
+            <div class="content">
+              <p class="title is-4">
+                Contact & Socials
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </body>
 </html>

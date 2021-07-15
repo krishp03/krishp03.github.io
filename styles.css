@@ -1,14 +1,23 @@
+.hero-body {
+    background: linear-gradient(90deg, rgb(25, 241, 255) 0%, rgb(136, 98, 220) 50%, rgb(183, 38, 115) 100%);
+}
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 100;
-    background-color: rgb(31, 31, 31);
-    color: lightcoral;
+    background: linear-gradient(90deg, rgb(25, 241, 255) 0%, rgb(136, 98, 220) 50%, rgb(183, 38, 115) 100%);
 }
-h1 {
-    font-weight: 200;
-    color: rgb(0, 140, 255);
+.title {
+    color: white;
 }
-h2{
-    font-weight: 150;
-    color: rgb(163, 24, 255);
+
+.subtitle{
+    color: white
+}
+.card{
+    background: transparent;
+}
+.card-content.s1{
+    background: transparent;
+}
+
+img {
+    padding: 5px;
 }
