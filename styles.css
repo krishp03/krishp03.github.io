@@ -1,23 +1,33 @@
+@font-face {
+  font-family: "logo-font";
+  src: url(fonts/Anurati-Regular.otf)
+}
+
 .hero-body {
-    background: linear-gradient(90deg, rgb(25, 241, 255) 0%, rgb(136, 98, 220) 50%, rgb(183, 38, 115) 100%);
+  background: linear-gradient(90deg, rgb(25, 241, 255) 0%, rgb(136, 98, 220) 50%, rgb(183, 38, 115) 100%);
 }
 body {
-    background: linear-gradient(90deg, rgb(25, 241, 255) 0%, rgb(136, 98, 220) 50%, rgb(183, 38, 115) 100%);
+  background: linear-gradient(90deg, rgb(25, 241, 255) 0%, rgb(136, 98, 220) 50%, rgb(183, 38, 115) 100%);
 }
 .title {
-    color: white;
+  color: white;
 }
 
 .subtitle{
-    color: white
+  color: white
 }
 .card{
-    background: transparent;
+  background: transparent;
 }
 .card-content.s1{
-    background: transparent;
+  background: transparent;
 }
 
 img {
-    padding: 5px;
+  padding: 5px;
 }
+.logo{
+  font-family: logo-font;
+  font-size: 50pt !important;
+}
+
