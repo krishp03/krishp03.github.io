@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>2-Player Tic Tac Toe</title>
+    
+    <script src="tictactoe.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"> 
+    <link rel="stylesheet" href="tictactoe.css"> 
+  </head>
+  
+  <body>
+    <div class="container">
+      <div class="column1">
+        <div class="header">
+          <h1 class="title">
+            <span>TIC</span>
+            <span>TAC</span>
+            <span>TOE</span>
+          </h1>
+          <p class="subtitle mt-6"> By <a href="https://krishp03.github.io">Krish Patel</a> & Ethan Byeon</p>
+        </div>
+        <div class="scoreboard mt-6">
+          <h1 id="score">Score</h1>
+          <h2 class="player mt-6">Player 1: <span>Krish</span></h2>
+          <h2 class="player">Player 2: <span>Ethan</span></h2>
+          <h2 class="next mt-6"><span id="player">Krish</span> is next ...</h2>
+          <button class="button reset mt-6">RESET</button>
+        </div>
+      </div>
+      <div class="column2 ml-6">
+        <div class="board">
+          <div class="cell unused">
+            <h1 class="item" id="0"></h1>
+          </div>
+          <div class="cell unused">
+            <h1 class="item" id="1"></h1>
+          </div>
+          <div class="cell unused">
+            <h1 class="item" id="2"></h1>
+          </div>
+          <div class="cell unused">
+            <h1 class="item" id="3"></h1>
+          </div>
+          <div class="cell unused">
+            <h1 class="item" id="4"></h1>
+          </div>
+          <div class="cell unused">
+            <h1 class="item" id="5"></h1>
+          </div>
+          <div class="cell unused">
+            <h1 class="item" id="6"></h1>
+          </div>
+          <div class="cell unused">
+            <h1 class="item" id="7"></h1>
+          </div>
+          <div class="cell unused">
+            <h1 class="item" id="8"></h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

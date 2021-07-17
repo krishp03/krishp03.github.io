@@ -9,6 +9,10 @@
 body {
   background: linear-gradient(90deg, rgb(25, 241, 255) 0%, rgb(136, 98, 220) 50%, rgb(183, 38, 115) 100%);
 }
+
+.is-centered {
+  background: linear-gradient(90deg, rgb(25, 241, 255) 0%, rgb(136, 98, 220) 50%, rgb(183, 38, 115) 100%);
+}
 .title {
   color: white;
 }
