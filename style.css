@@ -30,8 +30,15 @@ body {
 img {
   padding: 5px;
 }
+
 .logo{
   font-family: logo-font;
   font-size: 50pt !important;
+}
+
+footer{
+  padding: 50px;
+  color: white;
+  text-align: center;
 }
 
