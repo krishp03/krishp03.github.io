@@ -8,7 +8,6 @@
     <title>2-Player Tic Tac Toe</title>
     
     <script src="tictactoe.js" defer></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"> 
     <link rel="stylesheet" href="tictactoe.css"> 
   </head>
   
@@ -21,17 +20,26 @@
             <span>TAC</span>
             <span>TOE</span>
           </h1>
-          <p class="subtitle mt-6"> By <a href="https://krishp03.github.io">Krish Patel</a> & Ethan Byeon</p>
+          <p class="subtitle"> By <a href="https://krishp03.github.io">Krish Patel</a> & Ethan Byeon</p>
         </div>
-        <div class="scoreboard mt-6">
+        <div class="scoreboard">
           <h1 id="score">Score</h1>
-          <h2 class="player mt-6">Player 1: <span>Krish</span></h2>
-          <h2 class="player">Player 2: <span>Ethan</span></h2>
-          <h2 class="next mt-6"><span id="player">Krish</span> is next ...</h2>
-          <button class="button reset mt-6">RESET</button>
+          <h2 class="player">
+            Player 1: 
+            <span id = "player1">
+              <input id = "player1Name" type="name" name="player-name" placeholder="Enter Player 1 Name!">
+            </span>
+          </h2>
+          <h2 class="player">
+            Player 2: 
+            <span id = "player2">
+              <input id = "player2Name" type="name" name="player-name" placeholder="Enter Player 2 Name!">
+            </span></h2>
+          <h2 id = "status" class="not-visible"><span id="currPlayer">Player 1</span> is next ...</h2>
+          <button class="button reset">RESET</button>
         </div>
       </div>
-      <div class="column2 ml-6">
+      <div class="column2">
         <div class="board">
           <div class="cell unused">
             <h1 class="item" id="0"></h1>
@@ -63,5 +71,13 @@
         </div>
       </div>
     </div>
+    <footer>
+      <p id = "note">For the best experience, please use view in full screen on a laptop or desktop</p>
+      <p id = "krish">To see Krish's other work, visit <a href="https://krishp03.github.io">krishp03.github.io</a></p>
+      <p id = "ethan">To see Ethan's other work, visit <a href=""></a></p>
+      <p id = "code">To see the code for this project click
+        <a href="https://github.com/krishp03/krishp03.github.io/tree/main/projects/tic-tac-toe">here</a>
+      </p>
+    </footer>
   </body>
 </html>
