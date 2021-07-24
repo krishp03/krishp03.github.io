@@ -3,14 +3,16 @@ const hoverImages  = {
     "about-img" : "imgs/blkAbout.png",
     "resume-img" : "imgs/blkResume.png",
     "contact-img" : "imgs/blkContact.png",
-    "tictactoe-img" : "imgs/blkTicTacToe.png"
+    "tictactoe-img" : "imgs/blkTicTacToe.png",
+    "slider-img" : "imgs/blkSlider.png"
 }
 const leaveImages  = {
     "projects-img" : "imgs/whtCode.png",
     "about-img" : "imgs/whtAbout.png",
     "resume-img" : "imgs/whtResume.png",
     "contact-img" : "imgs/whtContact.png",
-    "tictactoe-img" : "imgs/whtTicTacToe.png"
+    "tictactoe-img" : "imgs/whtTicTacToe.png",
+    "slider-img" : "imgs/whtSlider.png"
 }
 
 const cards = document.querySelectorAll(".card")
