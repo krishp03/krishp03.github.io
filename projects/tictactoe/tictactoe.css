@@ -60,12 +60,12 @@ input::placeholder{
 
 .header p { font-size: 10px; }
 
-.scoreboard { 
+.info { 
   padding-top: 50px;
   font-size: 20px; 
 }
 
-#score {
+#info-screen {
   color: var(--yellow);
   text-decoration: underline;
   text-decoration-color: var(--darkred);
