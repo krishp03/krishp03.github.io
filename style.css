@@ -3,6 +3,15 @@
   src: url(fonts/Anurati-Regular.otf)
 }
 
+@font-face {
+  font-family: "main-font";
+  src: url(fonts/TitilliumWeb-Regular.ttf);
+}
+
+* {
+  font-family: 'main-font';
+}
+
 .hero-body {
   background: linear-gradient(90deg, rgb(25, 241, 255) 0%, rgb(136, 98, 220) 50%, rgb(183, 38, 115) 100%);
 }
@@ -18,7 +27,7 @@ body {
 }
 
 .subtitle{
-  color: white
+  color: white;
 }
 .card{
   background: transparent;
