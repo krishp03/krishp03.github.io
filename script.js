@@ -5,7 +5,9 @@ const hoverImages  = {
     "contact-img" : "imgs/blkContact.png",
     "tictactoe-img" : "imgs/blkTicTacToe.png",
     "slider-img" : "imgs/blkSlider.png",
-    "pw-img" : "imgs/blkPW.png"
+    "pw-img" : "imgs/blkPW.png",
+    "ln-img" : "imgs/blkLinked.png",
+    "email-img" : "imgs/blkEmail.png"
 }
 const leaveImages  = {
     "projects-img" : "imgs/whtCode.png",
@@ -14,7 +16,9 @@ const leaveImages  = {
     "contact-img" : "imgs/whtContact.png",
     "tictactoe-img" : "imgs/whtTicTacToe.png",
     "slider-img" : "imgs/whtSlider.png",
-    "pw-img" : "imgs/whtPW.png"
+    "pw-img" : "imgs/whtPW.png",
+    "ln-img" : "imgs/whtLinked.png",
+    "email-img" : "imgs/whtEmail.png"
 }
 
 const cards = document.querySelectorAll(".card")
@@ -26,7 +30,9 @@ cards.forEach(card => {
         image.src = newImage;
 
         const text = card.querySelector(".title");
-        text.style.color = "black"; 
+        const subtext = card.querySelector(".subtitle");
+        text.style.color = "black";
+        subtext.style.color = "black"; 
     })
     card.addEventListener("mouseleave", () => {
         const image = card.querySelector("img");
@@ -35,6 +41,8 @@ cards.forEach(card => {
         image.src = newImage;
 
         const text = card.querySelector(".title");
+        const subtext = card.querySelector(".subtitle");
         text.style.color = "white"; 
+        subtext.style.color = "white"; 
     })
 })

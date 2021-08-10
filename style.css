@@ -51,3 +51,7 @@ footer{
   text-align: center;
 }
 
+.match-text {
+  color: #ffffff;
+  text-decoration: underline;
+}
